@@ -1,0 +1,33 @@
+/*=============== FORM ================*/
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--dark-green);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.test {
+  margin-top: 5rem;
+}
+.input,
+.textArea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--gray);
+  resize: none;
+  color: var(--color-white);
+}
+
+.input {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.validate_btn {
+  margin-top: 1.5rem;
+}
